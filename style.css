@@ -1,0 +1,61 @@
+header{
+    background-color:blue;
+    text-align: center;
+    color:white;
+    padding:15 px 30px;
+    margin:10px;
+    font-family:"comic sans ms"
+}
+nav{
+    overflow:hidden;
+    background-color: blue;
+    text-align: center;
+}
+nav a{
+    
+    color:white;
+    padding:15px 30px;
+    text-decoration:none;
+}
+nav a:hover{
+    background-color: black;
+
+}
+.column{
+    float:left;
+    padding:10px;
+}
+.column.side{
+    width:20%;
+}
+.column.middle{
+    width:50%;
+}
+div.gallery{
+    margin:5px;
+    border: 1px solid black;
+    float:left;
+    width:200px;
+}
+div.gallery img{
+    width:100%;
+    height:auto;
+}
+@media screen and (max-width:631px){
+    .column,side, .column.middle{
+        width:100%;
+    }
+    p{
+        text-align:justify;
+    }
+      
+    
+}
+footer{
+    clear:both;
+    background-color:blue;
+    text-align: center;
+    color:white;
+    padding:5px;
+}
+
