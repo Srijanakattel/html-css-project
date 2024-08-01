@@ -1,5 +1,5 @@
 header{
-    background-color:blue;
+    background-color:rgb(11, 11, 91);
     text-align: center;
     color:white;
     padding:15 px 30px;
@@ -7,18 +7,18 @@ header{
     font-family:"comic sans ms"
 }
 nav{
-    overflow:hidden;
-    background-color: blue;
+     overflow:hidden;
+    background-color: rgb(11, 11, 91);
     text-align: center;
 }
 nav a{
     
     color:white;
     padding:15px 30px;
-    text-decoration:none;
+    text-decoration: none;
 }
 nav a:hover{
-    background-color: black;
+    background-color: blue;
 
 }
 .column{
@@ -31,31 +31,70 @@ nav a:hover{
 .column.middle{
     width:50%;
 }
-div.gallery{
+.gallery{
     margin:5px;
     border: 1px solid black;
     float:left;
     width:200px;
 }
-div.gallery img{
+.gallery img{
     width:100%;
     height:auto;
 }
+.gallery:hover{
+    border:5px solid black;
+}
+.desc{
+    padding:15px;
+    text-align:center;
+}
+.container{
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
 @media screen and (max-width:631px){
-    .column,side, .column.middle{
+    .column.side, .column.middle{
         width:100%;
     }
     p{
         text-align:justify;
     }
+    input[type=text], select{
+        width:100%;
+        padding:15px;
+        border:1px solid black;
+
+
+
+    }
+    input[type=submit]{
+        background-color: green;
+        color:white;
+        padding:15px,30px;
+    }
+   
+
       
     
 }
 footer{
     clear:both;
-    background-color:blue;
+    background-color:rgb(11, 11,91 );
     text-align: center;
     color:white;
     padding:5px;
+
 }
 
